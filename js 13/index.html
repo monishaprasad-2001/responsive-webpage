@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB DESIGN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="banner">
+        <header>
+            <a href="#" class="logo">WATCH</a>
+            <div class="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+            <div class="contentBx">
+                <h2>FUTURE ON <br> YOUR HAND</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum harum adipisci voluptatum, nostrum doloremque iusto ea vero placeat animi facere repellat autem voluptate aspernatur, illum consequatur ipsa. Est repellendus non libero totam ipsum reiciendis temporibus, quasi magnam saepe exercitationem dolorum accusantium voluptatibus odit! Architecto magni quia delectus consectetur dolores amet nobis, cumque deserunt quo tempora suscipit illo autem harum quidem quaerat nihil rerum eligendi inventore maxime eum. Veritatis possimus illum ad iure maxime saepe dolorum id! Commodi eligendi architecto eum quis sequi blanditiis quibusdam dignissimos enim, quaerat quos nostrum, voluptatem eaque facilis autem laboriosam error laudantium ea. Quae, veniam iure.</p>
+                <a href="#">BUY NOW</a>
+            </div>
+            <div class="imgBx">
+                <img src="watch.png">
+            </div>
+        </div>
+        <ul class="sci">
+            <li><a href="#"><img src="facebook.png"></a></li>
+            <li><a href="#"><img src="instagram.png"></a></li>
+            <li><a href="#"><img src="twitter.png"></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">PRODUCTS</a></li>
+            <li><a href="#">STORE</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+        </section>
+    <script type="text/javascript">
+    function toggle(){
+        const toggle = document.querySelector('.toggle');
+        const banner = document.querySelector('.banner');
+        toggle.classList.toggle('active')
+        banner.classList.toggle('active')
+    }
+    </script>
+</body>
+</html>
